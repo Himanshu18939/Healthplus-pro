@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  header {
+    background-image: linear-gradient(#20002c,#cbb4d4);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: linear-gradient(#20002c,#cbb4d4);
+  }
+  
+  label {
+    flex-basis: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea,
+  input[type="file"] {
+    flex-basis: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-image: linear-gradient(black,white);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #20002c;
+  }
+  
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
